@@ -4,7 +4,7 @@ $(document).ready(function() {
     <div class="sidebar-header">
         <h3>Noriva Admin</h3>
     </div>
-    <div class="sidebar__list">
+    <div class="sidebar__list sticky-top">
         <p>APPLICATION</p>
         <ul class="list-unstyled components">
             <li class="active">
@@ -16,13 +16,10 @@ $(document).ready(function() {
                         <a href="#">Product List</a>
                     </li>
                     <li>
-                        <a href="#">Product</a>
+                        <a href="#">Edit Product</a>
                     </li>
                     <li>
                         <a href="#">Category List</a>
-                    </li>
-                    <li>
-                        <a href="#">Category</a>
                     </li>
                 </ul>
             </li>
