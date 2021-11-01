@@ -59,9 +59,10 @@ a:focus {
 #sidebar {
   min-width: 250px;
   max-width: 250px;
-  background: #7386d5;
+  background: #3d464d;
   color: #fff;
   transition: all 0.3s;
+  position: sticky;
 }
 
 #sidebar.active {
@@ -69,15 +70,16 @@ a:focus {
 }
 
 #sidebar .sidebar-header {
-  padding: 20px;
-  background: #6d7fcc;
+  padding: 8px 16px;
+  background: #ffd333;
 }
-
-#sidebar ul.components {
-  padding: 20px 0;
-  border-bottom: 1px solid #47748b;
+#sidebar .sidebar-header h3 {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  cursor: default;
+  margin-top: 15px;
 }
-
 #sidebar ul p {
   color: #fff;
   padding: 10px;
@@ -90,18 +92,22 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-  color: #7386d5;
-  background: #fff;
+  background: rgb(136, 128, 128);
 }
 
 #sidebar ul li.active > a,
 a[aria-expanded="true"] {
   color: #fff;
-  background: #6d7fcc;
+  background: #3d464d;
 }
-
 a[data-toggle="collapse"] {
   position: relative;
+}
+
+.sidebar__list p {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .dropdown-toggle::after {
@@ -111,11 +117,13 @@ a[data-toggle="collapse"] {
   right: 20px;
   transform: translateY(-50%);
 }
-
+#side__bar .sidebar__list .list-unstyled .active a {
+  font-size: 13px;
+}
 ul ul a {
   font-size: 0.9em !important;
   padding-left: 30px !important;
-  background: #6d7fcc;
+  background: #3d464d;
 }
 
 ul.CTAs {
@@ -150,8 +158,16 @@ a.article:hover {
   padding: 20px;
   min-height: 100vh;
   transition: all 0.3s;
+  display: inline-block;
 }
-
+#content nav .btn-info {
+  background-color: transparent;
+  border: none;
+  border-radius: 1px;
+}
+#content nav .btn-info:hover {
+  background-color: #b8b0b0;
+}
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
