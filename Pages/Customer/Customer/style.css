@@ -30,7 +30,6 @@
 }
 .page__container .basic__product__info {
   padding: 24px;
-  width: 700px;
   height: auto;
   border: 1px solid #222222;
   border-radius: 2px;
@@ -72,7 +71,7 @@
   position: relative;
 }
 .page__container .price__product {
-  height: 1000px;
+  height: auto !important;
   width: auto;
   background-color: white;
   border: 1px solid #222222;
