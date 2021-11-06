@@ -26,14 +26,14 @@
         <div id="side__bar"></div>
         <!-- Page Content  -->
         <div id="content">
-            <div id="header"></div>>
+            <div id="header"></div>
+            </nav>
             <div class="page__container">
                 <div class="page__top row">
                     <h1 class="page__title col">
-                        Customer Name Here
+                        Order #(ID here)
                     </h1>
-                    <button class="add__btn ">Delete Customer</button>
-                    <button class="add__btn ">Save Changes!</button>
+                    <button class="add__btn ">Delete Order</button>
                 </div>
                 <div class="row" style="padding: 0 20px;">
                     <div class="basic__product__info col">
@@ -43,16 +43,15 @@
                         <form class="mt-3">
                             <div class="mb-3">
                                 <label class="form-label">Customer Name</label>
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control"  value="Nguyễn Thiên Hoàn" disabled>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Email</label>
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control" value="example@mail.com" disabled>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Gender</label>
-                                <select class="form-select">
-                                    <option selected>Select Gender</option>
+                                <select class="form-select" disabled>
                                     <option value="1">Male</option>
                                     <option value="2">Female</option>
                                     <option value="3">Other</option>
@@ -60,11 +59,11 @@
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Phone number</label>
-                                <input type="text" class="form-control" value="0794676336">
+                                <input type="text" class="form-control" disabled value="0794676336">
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Address</label>
-                                <input type="text" class="form-control" value="210/10 Sambram, Buôn Ma Thuột, DakLak">
+                                <input type="text" class="form-control" disabled value="210/10 Sambram, Buôn Ma Thuột, DakLak">
                             </div>
 
                         </form>
@@ -73,94 +72,78 @@
                     <div style="width: 25px"></div>
                     <div class="price__product col">
                         <h2 class="basic__pro__title">
-                            Orders
+                            Items
                         </h2>
                         <table class="table">
-                            <thead>
-                              <tr>
-                                <th scope="col">ID</th>
-                                <th scope="col">Date</th>
-                                <th scope="col">Status</th>
-                                <th scope="col">Total Items</th>
-                                <th scope="col">Total Money</th>
-                              </tr>
-                            </thead>
                             <tbody>
                               <tr>
-                                <th scope="row">#123412</th>
-                                <td>May 15, 2019</td>
-                                <td>Completed</td>
-                                <td>4 items</td>
+                                <th scope="row">
+                                    <div>
+                                        <img width="40px" height="40px" src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.6435-9/171619300_1092543814590800_1632394128569325001_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=P560_w3_4aMAX83vWZW&_nc_ht=scontent.fdad2-1.fna&oh=15f5ee48f7e3e586c0f11dc9c43dbc12&oe=61A7F468">
+                                    </div>
+                                </th>
+                                <td>Product name here</td>
+                                <td>$142.00</td>
+                                <td>1</td>
                                 <td>2 triệu</td>
                               </tr>
                               <tr>
-                                <th scope="row">#123412</th>
-                                <td>May 15, 2019</td>
-                                <td>Completed</td>
-                                <td>4 items</td>
+                                <th scope="row">
+                                    <div>
+                                        <img width="40px" height="40px" src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.6435-9/171619300_1092543814590800_1632394128569325001_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=P560_w3_4aMAX83vWZW&_nc_ht=scontent.fdad2-1.fna&oh=15f5ee48f7e3e586c0f11dc9c43dbc12&oe=61A7F468">
+                                    </div>
+                                </th>
+                                <td>Product name here</td>
+                                <td>$142.00</td>
+                                <td>1</td>
                                 <td>2 triệu</td>
                               </tr>
                               <tr>
-                                <th scope="row">#123412</th>
-                                <td>May 15, 2019</td>
-                                <td>Completed</td>
-                                <td>4 items</td>
-                                <td>2 triệu</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">#123412</th>
-                                <td>May 15, 2019</td>
-                                <td>Completed</td>
-                                <td>4 items</td>
-                                <td>2 triệu</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">#123412</th>
-                                <td>May 15, 2019</td>
-                                <td>Completed</td>
-                                <td>4 items</td>
-                                <td>2 triệu</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">#123412</th>
-                                <td>May 15, 2019</td>
-                                <td>Completed</td>
-                                <td>4 items</td>
-                                <td>2 triệu</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">#123412</th>
-                                <td>May 15, 2019</td>
-                                <td>Completed</td>
-                                <td>4 items</td>
-                                <td>2 triệu</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">#123412</th>
-                                <td>May 15, 2019</td>
-                                <td>Completed</td>
-                                <td>4 items</td>
-                                <td>2 triệu</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">#123412</th>
-                                <td>May 15, 2019</td>
-                                <td>Completed</td>
-                                <td>4 items</td>
+                                <th scope="row">
+                                    <div>
+                                        <img width="40px" height="40px" src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.6435-9/171619300_1092543814590800_1632394128569325001_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=P560_w3_4aMAX83vWZW&_nc_ht=scontent.fdad2-1.fna&oh=15f5ee48f7e3e586c0f11dc9c43dbc12&oe=61A7F468">
+                                    </div>
+                                </th>
+                                <td>Product name here</td>
+                                <td>$142.00</td>
+                                <td>1</td>
                                 <td>2 triệu</td>
                               </tr>
                             </tbody>
                           </table>
-                          <div>
-                            <p class="col">Ordered: 12 items</p>
-                            <p class="col">Average Order Value: 2 triệu</p>
-                            <p class="col">Total spent: 200 triệu</p>
+                          <table class="table table-borderless">
+                              <tr>
+                                  <td>Subtotal</td>
+                                  <td class="float-end">$124123.00</tr>
+                              </tr>
+                              <tr>
+                                <td>Shipping fee</td>
+                                <td class="float-end">$5.00</tr>
+                            </tr>
+                            <tr>
+                                <td>Total</td>
+                                <td class="float-end">$12412.00</tr>
+                            </tr>
+                          </table>
+                          <h2 class="basic__pro__title">
+                            Transactions
+                        </h2>
+                        <table class="table table-borderless">
+                            <tbody>
+                              <tr>
+                                <td>Payment</td>
+                                <td>Via paypay</td>
+                                <td>0ctober 7,2020</td>
+                                <td>$22222.00</td>
+                              </tr>
+                            </tbody>
+                          </table>                 
                         </div>
                     </div>
                 </div>
-
+                <div id="footer"></div>
             </div>
-            <div id="footer"></div>
+            
         </div>
     </div>
     <script src="https://kit.fontawesome.com/e82e1ec9a6.js" crossorigin="anonymous"></script>
@@ -177,7 +160,7 @@
     <script src="../../../Components/SlideBar/Sidebar.js"></script>
     <script src="../../../Components/SlideBar/main.js"></script>
     <script src="../../../Components/Footer/Footer.js"></script>
-    <script src="../../../Components/Header/Header.js"></script>
+    <script src="../../../Admin_page/Components/Header/Header.js"></script>
 
     <script type="text/javascript" src="./main.js"></script>
 </body>
