@@ -24,6 +24,8 @@
   height: 40px;
   background-color: #ffda52;
   padding: 5px;
+  text-align: center;
+  border: 1px solid #222222;
 }
 .page__container .add__btn:hover {
   background-color: #ffc107;

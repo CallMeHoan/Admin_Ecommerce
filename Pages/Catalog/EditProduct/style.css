@@ -31,7 +31,7 @@
 .page__container .basic__product__info {
   padding: 24px;
   width: 700px;
-  height: auto;
+  height: 100px;
   border: 1px solid #222222;
   border-radius: 2px;
   background-color: white;
